@@ -1,0 +1,24 @@
+<button onclick="downloadResume()">Download Resume as PDF</button>
+
+<script src="https://unpkg.com/html2pdf.js"></script>
+<script>
+  function downloadResume() {
+    const element = document.body; // The resume content you want to download
+    html2pdf()
+      .from(element)
+      .save('resume.pdf');
+  }
+</script>
+<button onclick="downloadResume()">Download Resume as PDF</button>
+
+<script src="https://unpkg.com/html2pdf.js"></script>
+<script>
+  function downloadResume() {
+    const element = document.body; // The resume content you want to download
+    html2pdf()
+      .from(element)
+      .save('resume.pdf');
+  }
+</script>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://username.vercel.app/resume" target="_blank">Share on Facebook</a>
+<a href="https://twitter.com/intent/tweet?text=Check%20out%20my%20resume!&url=https://username.vercel.app/resume" target="_blank">Share on Twitter</a>
